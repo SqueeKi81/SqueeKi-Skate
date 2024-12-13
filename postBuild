@@ -3,4 +3,4 @@
 mkdir -p ~/.jupyter/.
 
 # Copy the configuration file into the .jupyter directory
-cp jupyter_notebook_config.py ~/ .jupyter
+cp jupyter_notebook_config.py ~/.jupyter
