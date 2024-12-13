@@ -1,3 +1,6 @@
 #!/bin/bash
-mkdir -p ~/ .jupyter
+# Create the .jupyter directory if it doesn't exist
+mkdir -p ~/.jupyter/.
+
+# Copy the configuration file into the .jupyter directory
 cp jupyter_notebook_config.py ~/ .jupyter
