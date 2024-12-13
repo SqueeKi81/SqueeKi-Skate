@@ -17,3 +17,10 @@ This is a Python based app to log roller skating progress, track streaks, and se
 
 ## Feedback
 If you have feedback or ideas for improvements, please open an issue or create a pull request!
+
+## Testing
+1. Copy/paste the following URL into browser: https://hub.binder.curvenote.dev/user/squeeki81-skate-tracker-11qb088u/lab
+2. On the left, you'll see three items - click practicelog.py.py
+3. Go to File -> New and select Terminal from the drop down
+4. Once in the Terminal, type ls - it will bring up the same list of files from the far left.
+5. Once the next prompt loads, type python practicelog.py.py
