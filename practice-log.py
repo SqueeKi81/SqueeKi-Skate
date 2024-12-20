@@ -129,12 +129,24 @@ def log_practice():
 def check_goal():
     if goal:
         remaining_days = 7 - (datetime.date.today() - datetime.date.fromisoformat(goal["start_date"])).days
-        return f'''
+ 	
+	# Check if the goal is met
+        if goal_progress >= goal['amount']:
+            return f'''      
             <h1>Check Goal Progress</h1>
             <p>Goal Progress: {goal_progress}/{goal['amount']} {goal['type']}.</p>
-            <p>Days left: {remaining_days} days.</p>
-        '''
-    return "<h1>Check Goal Progress</h1><p>No goal set. Set a goal first!</p>"
+            <p>🎉 Congratulations! You've crushed your goal of {goal['amount']}{goal['type']}!</p>
+            '''
+	# If the goal isn't met
+        return f'''
+        <h1>Check Goal Progress</h1>
+        <p>Goal Progress: {goal_progress}/{goal['amount']} {goal['type']}.</p>
+        <p>Days left: {remaining_days} days.</p>
+	'''
+   
+    # If no goal is set
+    if not goal: # Use 'if not goal' instead of the comment
+        return "<h1>Check Goal Progress</h1><p>No goal set. Set a goal first!</p>"
 
 @app.route('/view_weekly_progress')
 def view_weekly_progress():
