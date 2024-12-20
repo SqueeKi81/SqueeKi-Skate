@@ -14,13 +14,40 @@ This is a Python based app to log roller skating progress, track streaks, and se
 ## Future Improvements
 - Add a userfriendly interface.
 - Integrate a motivational leaderboard.
+- Allow users to upload short tutorials to share with the skate community.
+- Include personalized avatars, bios, and daily tips on how to maximize practice times.
 
 ## Feedback
 If you have feedback or ideas for improvements, please open an issue or create a pull request!
 
 ## Testing
 
-2. On the left, you'll see three items - click practicelog.py.py
-3. Go to File -> New and select Terminal from the drop down
-4. Once in the Terminal, type ls - it will bring up the same list of files from the far left.
-5. Once the next prompt loads, type python practicelog.py.py
+1. Testing Locally
+   1.  Clone the repository:
+       git clone https://github.com/your-username/skate-tracker.git
+
+   2.   Navigate to the project directory:
+        cd skate-tracker
+
+  3.   Install required dependencies:
+       pip install -requirements.txt
+
+  4.   Run the Flask app:
+       python3 practicelog.py
+
+  5.   Open your browser and go to:
+       http://127.0.0.1:8080
+       
+2. Testing Online
+
+   If you're hosting the app (e.g., PythonAnywhere), simply visit the provided link:
+   [link here]
+
+3. Features to Test
+   * Set Goal
+   * Log Practice
+   * Check Goal Progress
+   * View Weekly Progress
+   * View Calendar
+   
+
