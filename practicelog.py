@@ -54,8 +54,8 @@ def load_data():
 @app.route('/')
 def index():
     return '''
-        <h1>Skate Tracker</h1>
-        <p>Welcome to the Skate Tracker app!</p>
+        <h1>SqueeKi Skate</h1>
+        <p>Welcome to the SqueeKi Skate Tracker!</p>
         <ul>
             <li><a href="/set_goal">Set Goal</a></li>
             <li><a href="/log_practice">Log Practice</a></li>
