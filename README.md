@@ -1,4 +1,4 @@
-# Roller Skating Practice Tracker
+# Roller Skating Practice Tracker (AKA, SqueeKi Skate)
 This is a Python based app to log roller skating progress, track streaks, and set goals. It's intended to engage skaters of all skill levels and keep them motivated.
 
 ## Features
@@ -24,10 +24,10 @@ If you have feedback or ideas for improvements, please open an issue or create a
 
 1. Testing Locally
    1.  Clone the repository:
-       git clone https://github.com/your-username/skate-tracker.git
+       git clone https://github.com/your-username/SqueeKi-Skate.git
 
    2.   Navigate to the project directory:
-        cd skate-tracker
+        cd SqueeKi-Skate
 
   3.   Install required dependencies:
        pip install -requirements.txt
