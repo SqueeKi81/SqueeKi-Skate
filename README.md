@@ -7,7 +7,7 @@ This is a Python based app to log roller skating progress, track streaks, and se
 - Save practice data locally for future sessions
 
 ## How to Use
-1. Clone the repository or download practicelog.py.py;
+1. Clone the repository or download practicelog.py;
 2. Run the script in Python 3 (e.g., using Pythonista or a computer);
 3. Follow the menu prompts to log your practice and set goals.
 
